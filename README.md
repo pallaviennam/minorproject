@@ -1,48 +1,47 @@
 # minorproject
-About the Project
 
-This project is a Smart Home Energy Management System (SHEMS) built using microcontrollers and IoT components.
-The main goal is to optimize household electricity usage by monitoring, automating, and controlling appliances in real time.
+About the Project:
 
-With electricity costs on the rise, this system helps:
-Reduce energy wastage
-Save money by shifting loads to non-peak hours
-Give homeowners full control over their appliances from a simple interface
+This is my Minor Project for the Embedded Systems course. The project is built using microcontrollers and IoT concepts to solve a real-world problem in a simple and efficient way.
+The aim of this project is to:
+Demonstrate embedded system design skills
+Apply microcontroller programming knowledge
+Implement real-time monitoring and control features
+Provide a low-cost and scalable solution
 
 Features:
- Real-time monitoring of energy consumption
- Automated appliance scheduling
- Load shifting during peak hours
- Remote control via mobile/web app
- Scalable design for different types of homes
- 
- How It Works:
-Sensors collect data (e.g., current, temperature, motion).
-A microcontroller (Arduino / ESP32 / ESP8266) processes the data.
-Data is sent via Wi-Fi/ZigBee to the cloud.
-The system makes decisions (e.g., when to turn appliances ON/OFF).
-Homeowners can check everything on a web or mobile dashboard.
+ Simple hardware setup using Arduino/ESP8266/ESP32
+ Real-time monitoring of sensors
+ Automated control based on conditions
+ Easy-to-use interface (LEDs/LCD/Web/Mobile)
+ Energy-efficient and cost-effective design
+
+How It Works:
+Sensors collect input data (temperature, light, motion, etc.).
+The microcontroller processes this input.
+Based on conditions, it triggers actuators (relays, motors, alarms, etc.).
+The system provides feedback through LEDs, LCD, or an app.
 
 Hardware Used:
-Arduino / ESP8266 / ESP32 (microcontroller)
-Current & voltage sensors
-Relay modules for controlling appliances
-Wi-Fi/ZigBee communication modules
+Arduino / ESP8266 / ESP32
+Relevant sensors (depending on project idea)
+Relay modules or actuators
+LCD / LEDs for output
 Power supply
 
 Software:
-Arduino IDE (Embedded C / C++)
-Cloud services (for storage & real-time updates)
+Arduino IDE (Embedded C/C++)
+Communication protocol (Wi-Fi / Bluetooth )
 
 Results:
- Lower electricity bills by reducing unnecessary usage
- Better efficiency through smart scheduling
- Simple UI for monitoring and control
- Environment-friendly by avoiding wastage
- 
+ Working prototype of the system
+ Demonstrated real-time monitoring & control
+ Low cost, scalable solution for future upgrades
+
  Project Structure
-├── major code.rtf   # Microcontroller code
-├── PALLAVI.docx     # Project report/documentation
+├── CODE.docx             # Microcontroller code (convert to .ino if Arduino)
+├── minor project ES.pptx # Presentation slides
+
 
 AUTHOR
 ENNAM PALLAVI
